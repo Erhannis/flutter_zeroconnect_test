@@ -31,8 +31,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  zeroconnect:
-    path: D:\projects\fzeroconnect\
+  zeroconnect: ^0.9.0
+#    path: D:\projects\fzeroconnect\
   cross_scroll: ^0.0.75
 
 

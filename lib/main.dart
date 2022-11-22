@@ -10,12 +10,13 @@ import 'package:zeroconnect/zeroconnect.dart';
 import 'package:zeroconnect_test/asdf.dart';
 
 void main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
-  // serverTest();
-  // await sleep(10000);
-  // clientTest();
+  ZC_LOGGING = 10;
+  //WidgetsFlutterBinding.ensureInitialized();
+  serverTest();
+  await sleep(10000);
+  clientTest();
 
-  runApp(const MyApp());
+  //runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
